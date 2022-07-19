@@ -1,0 +1,23 @@
+#header {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: antiquewhite;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+#grid-item {
+    border: white 3px solid;
+}
